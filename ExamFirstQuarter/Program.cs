@@ -14,7 +14,7 @@ void ThreeCharArray(string[]array)
             for (int j = 0; j < newArray.Length; j++)
             {
                 newArray[j]=array[i];
-                Console.Write($"{newArray[j]}")
+                Console.Write($"{newArray[j]}");
             }
             count++;
         }
