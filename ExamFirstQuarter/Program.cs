@@ -5,5 +5,16 @@ string[] array = input.Split(",")
 
 void ThreeCharArray(string[]array)
 {
-    
+    int count = 1;
+    string[] newArray = new string[count];
+    for (int i = 0; i < array.Length; i++)
+    {
+        if(array[i].Length<4)
+        {
+            for (int j = 0; j < newArray.Length; j++)
+            {
+                
+            }
+        }
+    }
 }
