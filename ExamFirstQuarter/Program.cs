@@ -20,3 +20,6 @@ void ThreeCharArray(string[]array)
         }
     }
 }
+
+Console.WriteLine($"Исправленный массив имеет следующий вид: ");
+ThreeCharArray(array);
