@@ -1,2 +1,4 @@
 ﻿Console.WriteLine("Введите массив через запятую: ");
-string[] array = Console.ReadLine()!;
+string input = Console.ReadLine()!;
+string[] array = input.Split(",")
+                      .ToArray();
